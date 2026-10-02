@@ -1,16 +1,12 @@
+using TMPro;
 using UnityEngine;
 
 public class demo : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public TextMeshProUGUI textbox;
+    
+    public void OnClick()
     {
-        Time.deltaTime
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        textbox.text = "i have changed";
     }
 }
